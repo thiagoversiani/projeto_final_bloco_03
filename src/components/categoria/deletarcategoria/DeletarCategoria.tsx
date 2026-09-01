@@ -10,9 +10,7 @@ const DeletarCategoria: React.FC = () => {
  
   const [categoria, setCategoria] = useState<Categoria>({
     id: 0,
-    nome: '',
-    preco: 0,
-    foto: '',
+    nome: ''
   });
  
   async function buscarPorId(idBuscar: string) {
