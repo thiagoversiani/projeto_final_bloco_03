@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Pencil, Trash } from '@phosphor-icons/react';
 import type Categoria from '../../../models/Categoria';
 
+
  
 interface CardCategoriaProps {
 
@@ -54,4 +55,3 @@ const CardCategorias: React.FC<CardCategoriaProps> = ({ categoria }) => {
 };
  
 export default CardCategorias;
- 

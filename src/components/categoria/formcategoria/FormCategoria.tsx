@@ -1,7 +1,10 @@
 import React, { type ChangeEvent, useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import type Categoria from '../../../models/Categoria';
+
 import { atualizar, buscar, cadastrar } from '../../../services/Service';
+import type Categoria from '../../../models/Categoria';
+
+
  
 const FormCategoria: React.FC = () => {
   const navigate = useNavigate();

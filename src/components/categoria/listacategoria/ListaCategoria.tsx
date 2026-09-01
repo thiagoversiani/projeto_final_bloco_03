@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import type Categoria from '../../../models/Categoria';
 import { buscar } from '../../../services/Service';
 import CardCategorias from '../cardcategoria/CardCategoria';
+import type Categoria from '../../../models/Categoria';
  
 const ListarCategorias: React.FC = () => {
   const [categorias, setCategorias] = useState<Categoria[]>([]);

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Check, X } from '@phosphor-icons/react';
-import type Categoria from '../../../models/Categoria';
 import { buscar, deletar } from '../../../services/Service';
+import type Categoria from '../../../models/Categoria';
  
 const DeletarCategoria: React.FC = () => {
   const navigate = useNavigate();
